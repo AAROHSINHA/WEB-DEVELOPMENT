@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STREAM CENTRAL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="TOP">
+        <section class="main-bg"></section>
+        <div class="dark-overlay"></div>
+
+        <nav class="navbar">
+            <div class="navbar-div">
+                <div class="site-name">
+                    <span>STREAM</span>
+                    <span>CENTRAL</span>
+                </div>
+                <div class="nav-elements">
+                    <ul>
+                        <li>HOME</li>
+                        <li>MOVIES</li>
+                        <li>TV SHOWS</li>
+                        <li>ABOUT US</li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="search">
+            <select name="type" id="type">
+                <option value="Movie">MOVIE</option>
+                <option value="TV Show">TV SHOW</option>
+            </select>
+            <input type="text" id="searchbar" placeholder="Search for a movie or TV Show that you are looking for!!">
+        </div>
+
+        <section class="top-posters">
+            <div class="top-poster">
+                <div class="poster-data">
+                    <div class="movie-genre"><p class="movie_genre"></p></div>
+                    <div class="movie-name"></div>
+                    <div class="movie-rating"></div>
+                </div>
+            </div>
+            <div class="top-poster">
+                <div class="poster-data">
+                    <div class="movie-genre"><p class="movie_genre"></p></div>
+                    <div class="movie-name"></div>
+                    <div class="movie-rating"></div>
+                </div>
+            </div>
+            <div class="top-poster">
+                <div class="poster-data">
+                    <div class="movie-genre"><p class="movie_genre"></p></div>
+                    <div class="movie-name"></div>
+                    <div class="movie-rating"></div>
+                </div>
+            </div>
+            <div class="top-poster">
+                <div class="poster-data">
+                    <div class="movie-genre"><p class="movie_genre"></p></div>
+                    <div class="movie-name"></div>
+                    <div class="movie-rating"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <main class="MIDDLE">
+       <div class="middle-section">
+        <section class="top_movies middle-movie">
+            <div class="middle-movie-top">
+                <h3>TOP RATED MOVIES</h3>
+                <a href="top_link.html" target="_blank" class="top_link">VIEW ALL ></a>
+            </div>
+            <div class="middle-movie-movies">
+                <div class="middle-movie-movies-poster top_poster"></div>
+                <div class="middle-movie-movies-poster top_poster"></div>
+                <div class="middle-movie-movies-poster top_poster"></div>
+                <div class="middle-movie-movies-poster top_poster"></div>
+                <div class="middle-movie-movies-poster top_poster"></div>
+            </div>
+        </section>
+        <section class="current_movies middle-movie">
+            <div class="middle-movie-top">
+                <h3>NOW PLAYING</h3>
+                <a href="current_link.html"  target="_blank" class="current_link">VIEW ALL ></a>
+            </div>
+            <div class="middle-movie-movies">
+                <div class="middle-movie-movies-poster current_poster"></div>
+                <div class="middle-movie-movies-poster current_poster"></div>
+                <div class="middle-movie-movies-poster current_poster"></div>
+                <div class="middle-movie-movies-poster current_poster"></div>
+                <div class="middle-movie-movies-poster current_poster"></div>
+            </div>
+        </section>
+        <section class="upcoming_movies middle-movie">
+            <div class="middle-movie-top">
+                <h3>UPCOMING MOVIES</h3>
+                <a href="upcoming_link.html" target="_blank"  class="upcoming_link">VIEW ALL ></a>
+            </div>
+            <div class="middle-movie-movies">
+                <div class="middle-movie-movies-poster upcoming_poster"></div>
+                <div class="middle-movie-movies-poster upcoming_poster"></div>
+                <div class="middle-movie-movies-poster upcoming_poster"></div>
+                <div class="middle-movie-movies-poster upcoming_poster"></div>
+                <div class="middle-movie-movies-poster upcoming_poster"></div>
+            </div>
+        </section>
+        <section class="upcoming_movies middle-movie">
+            <div class="middle-movie-top">
+                <h3>BINGE WORTHY T.V SHOWS</h3>
+                <a href="tv_link.html" target="_blank"  class="tv_link">VIEW ALL ></a>
+            </div>
+            <div class="middle-movie-movies">
+                <div class="middle-movie-movies-poster tv_poster"></div>
+                <div class="middle-movie-movies-poster tv_poster"></div>
+                <div class="middle-movie-movies-poster tv_poster"></div>
+                <div class="middle-movie-movies-poster tv_poster"></div>
+                <div class="middle-movie-movies-poster tv_poster"></div>
+            </div>
+        </section>
+       </div>
+    </main>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
